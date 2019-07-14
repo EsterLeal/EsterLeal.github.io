@@ -82,13 +82,10 @@ input[type=submit]:hover {
     display: flex;
     flex-flow: wrap column;
     align-items: left;
-    /* float: right; */
-    /* height: 70%; */
     padding-top: 40px;
 }
 
 .container {
-   /* background-color: blueviolet; */
    padding: 100%;
    padding-top: 60px;
 }

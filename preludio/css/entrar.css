@@ -53,7 +53,7 @@ body {
 }
 
 input[type=text], input[type=email], input[type=password], textarea, select {
-    width: 50%;
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -77,11 +77,6 @@ input[type=submit]:hover {
     background-color: #ff971fa9;
 }
 
-/* .containerForm{
-    background-color: aqua;
-} */
-
-
 .container{
     padding: 40%;
     padding-top: 60px;
@@ -98,18 +93,15 @@ input[type=submit]:hover {
     position: relative;
     padding-top: 100px;
     margin-left: 100px;
-    /* width: 100%; */
 }
 
 .formCadastro {
     width: 50%;
-    /* background-color: violet; */
 }
 
 .formLogin {
     width: 50%;
-    height: 91%;
-       /* background-color: blueviolet; */
+    height: 95%;
 }
 
 .imgCadastro {
