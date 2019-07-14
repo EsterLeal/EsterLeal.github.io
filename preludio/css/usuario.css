@@ -30,18 +30,19 @@ body {
     cursor: pointer;
     float: left;
     padding: 10px;
-    width: 130px;
-    height: 60px;
+    width: 169px;
+    height: 80px;
     margin: 0px;
     top: fixed;
 }
 
 .entrar {
-    /* background-color: #ff971f; */
     color: #ff971f;
     display: inline-block;
     align-items: center;
     padding: 14px 16px;
+    margin-top: 20px;
+    margin-right: 10px;
     text-decoration: none;
     text-align: center;
     cursor: pointer;
@@ -100,8 +101,8 @@ input[type=button]:hover {
     color: white;
     text-align: center;
     padding: 0px;
-    padding-top: 10px;
-    height: 50px;
+    padding-top: 25px;
+    height: 70px;
+    margin: 0px;
     width: 100%;
-    position: relative;
 }

@@ -28,8 +28,8 @@ body {
     cursor: pointer;
     float: left;
     padding: 10px;
-    width: 130px;
-    height: 60px;
+    width: 169px;
+    height: 80px;
     margin: 0px;
     top: fixed;
 }
@@ -38,7 +38,10 @@ body {
     background-color: #ff971f;
     color: white;
     display: inline-block;
+    align-items: center;
     padding: 14px 16px;
+    margin-top: 20px;
+    margin-right: 10px;
     text-decoration: none;
     text-align: center;
     cursor: pointer;
@@ -60,7 +63,7 @@ input[type=text], input[type=email], input[type=password], textarea, select {
 }
 
 input[type=submit] {
-    width: 15%;
+    width: 20%;
     background-color: #ff971f;
     color: white;
     padding: 14px 20px;
@@ -77,6 +80,12 @@ input[type=submit]:hover {
 /* .containerForm{
     background-color: aqua;
 } */
+
+
+.container{
+    padding: 40%;
+    padding-top: 60px;
+}
 
 .form {
     display: flex;
@@ -99,7 +108,8 @@ input[type=submit]:hover {
 
 .formLogin {
     width: 50%;
-    /* background-color: blueviolet; */
+    height: 91%;
+       /* background-color: blueviolet; */
 }
 
 .imgCadastro {
@@ -115,14 +125,6 @@ input[type=submit]:hover {
     flex-flow: wrap column;
     align-items: center;
     height: 500px;
-}
-
-#footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
 }
 
 #footer2 {
